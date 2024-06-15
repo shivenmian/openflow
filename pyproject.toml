@@ -7,6 +7,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+llama-index = "^0.10.45"
+transformers = "4.39.0"
+einops = "^0.8.0"
+langchain = "^0.2.5"
+vlite = "^0.2.7"
+langchain-community = "^0.2.5"
+pytesseract = "^0.3.10"
+pillow = "^10.3.0"
+pyautogui = "^0.9.54"
+datetime = "^5.5"
 
 
 [build-system]
