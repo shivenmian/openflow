@@ -1,5 +1,5 @@
 from vlite import VLite
-
+from contacts import get_email_address, get_full_names_from_first_name
 class DatabaseManager:
     def __init__(self, collection_name="openflow"):
         self.vdb = VLite(collection=collection_name)
@@ -16,3 +16,4 @@ class DatabaseManager:
     def retrieve_by_metadata(self, metadata):
         return self.vdb.get(where=metadata)
 
+# db = DatabaseManager()
