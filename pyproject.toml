@@ -17,6 +17,8 @@ pytesseract = "^0.3.10"
 pillow = "^10.3.0"
 pyautogui = "^0.9.54"
 datetime = "^5.5"
+sounddevice = "^0.4.7"
+soundfile = "^0.12.1"
 
 
 [build-system]
