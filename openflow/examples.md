@@ -19,6 +19,9 @@ Hey Akash, was wondering if you had any thoughts on the upcoming product launch 
 
 ------
 So we've noticed some existing products that take in speech and output structured text.
+
+A problem we noticed with speech transcription with Whisper: text formatting + mispelling entities
+
 As people with less traditional names, our names are often mispelled by vanilla speech transcription models.
 
 pipeline:

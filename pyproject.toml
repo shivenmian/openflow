@@ -19,6 +19,12 @@ pyautogui = "^0.9.54"
 datetime = "^5.5"
 sounddevice = "^0.4.7"
 soundfile = "^0.12.1"
+mlx-whisper = "^0.1.0"
+openpipe = "^4.14.0"
+keyboard = "^0.13.5"
+pynput = "^1.7.7"
+pyperclip = "^1.8.2"
+litellm = "^1.40.14"
 
 
 [build-system]
